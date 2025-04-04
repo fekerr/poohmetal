@@ -1,0 +1,32 @@
+[config]
+title       = "Honeycore Saga: A Metal-Fueled Epic"
+description = "A project merging compressed narrative content with Docker-based "
+              "development. Contains all initial versions and configuration."
+version     = "1.0"
+author      = "Copilot"
+
+[session]
+# Compressed narrative segments (placeholders as examples)
+pooh_birth     = "eJx1kM1u2zAQx+/P+YWIPksgNhkDQogI4stFImw3tHC27NXxp..."
+pooh_rage      = "eJxV0MFLwzAQBuDfU6BdE6mABzGnHUGFkpaWJQpeUvyWZCZUc4H..."
+heffalump_war  = "eJw1kD1PwzAQx+/P/JDQhyAVV+IEXQSVAHVgVRiVKlAp5ZULFGb..."
+poseidon_defeat= "eJw1kO0OgzAQhO/f+YWIPsMgNhkDwggQoVEFpVoZcQ6bfutJDBD9..."
+zeus_falls    = "eJztzUEOgyAQBuBfFV+7gFAUpVEFNKaGaoP2/l6GoC51PmuP+wdJX..."
+
+[ascii_art]
+pooh_metal       = "eJztzUsOgyAQBuBfFV/6gMJCgFUFSOaWbEaP8eWLIdpymCUPvv..."
+zeus_defeated    = "eJztzU0OgyAUBuBfFV+7gFAUpVEFNKaGaoP2/l6GoC51PmuP+wdJ..."
+kraken_released  = "eJztzUEOgyAQBuBfFV+7gFAUpVEFNKaGaoP2/l6GoC51PmuP+wdJX..."
+honeycore_throne = "eJztzUkOgyAQBuBfFV+7gFAUpVEFNKaGaoP2/l6GoC51PmuP+wdJX..."
+
+[docker]
+base_image         = "ubuntu:latest"
+python_version     = "3.11"
+venv_name          = "honeycore_env"
+dev_mount          = "/dev/honeycore"
+local_dev_folder   = "./dev"
+dockerfile_name    = "Dockerfile"
+
+[versions]
+docker_config_version = "1.0"
+project_version       = "1.0"
