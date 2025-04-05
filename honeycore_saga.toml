@@ -1,7 +1,7 @@
 [config]
 title       = "Honeycore Saga: A Metal-Fueled Epic"
-description = "A project merging compressed narrative content with Docker-based "
-              "development. Contains all initial versions and configuration."
+description = """A project merging compressed narrative content with Docker-based
+              development. Contains all initial versions and configuration."""
 version     = "1.0"
 author      = "Copilot"
 
